@@ -1,10 +1,10 @@
 @font-face {
   font-family: "SebastianLightPro";
-  src: url("./fonts/SebastianLightPro.eot");
-  src: url("./fonts/SebastianLightPro.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/SebastianLightPro.ttf") format("truetype"),
-    url("./fonts/SebastianLightPro.woff") format("woff"),
-    url("./fonts/SebastianLightPro.woff2") format("woff2");
+  src: url("../assets/fonts/SebastianLightPro.eot");
+  src: url("../assets/fonts/SebastianLightPro.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/SebastianLightPro.ttf") format("truetype"),
+    url("../assets/fonts/SebastianLightPro.woff") format("woff"),
+    url("../assets/fonts/SebastianLightPro.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
