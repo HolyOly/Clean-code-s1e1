@@ -31,7 +31,7 @@ body {
   .header { 
     text-align: center;
   }
-  
+
 }
 .main {
   display: block;
@@ -47,14 +47,14 @@ body {
   display: flex;
 }
 .main__ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .main__li, .main__title {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 button {
   background: none;
@@ -146,14 +146,14 @@ button.main__delete-button .main__remove-img:hover {
 
 /* Edit Task */
 .main__ul .main__li input[type=text] {
-  display:none
+  display: none
 }
 
 .main__ul .main__li.main__edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .main__ul .main__li.main__edit-mode label {
-  display:none;
+  display: none;
 }
