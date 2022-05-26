@@ -14,18 +14,22 @@ body {
   color: #333;
   font-family: "Lato", "Open Sans", sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header .header__img {
   width: 100%;
 }
+
 .header .header__info {
   font-family: "SebastianLightPro", fantasy, cursive;
 }
+
 @media (max-width:768px) {
 
   .header {
@@ -33,29 +37,36 @@ body {
   }
 
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .main__input-general {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .main__item-row {
   display: flex;
 }
+
 .main__ul {
   margin: 0;
   padding: 0px;
 }
+
 .main__li, .main__title {
   list-style: none;
 }
+
 .main__input, .main__btn {
   outline: none;
 }
+
 .main__btn {
   background: none;
   border: 0px;
@@ -65,9 +76,11 @@ body {
   font-family: "Lato", sans-serif;
   cursor: pointer;
 }
+
 .main__btn:hover {
   color: #3a3a3a;
 }
+
 .main__title,
 .main__label-add {
   color: #333;
@@ -78,6 +91,7 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
+
 .main__input_text {
   margin: 0;
   font-size: 18px;
@@ -90,6 +104,7 @@ body {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .main__input_text:focus {
   color: #333;
 }
@@ -98,6 +113,7 @@ body {
   display: block;
   margin: 0 0 20px;
 }
+
 .main__input_text#new-item {
   width: 318px;
 }
@@ -110,6 +126,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .main__li > * {
   vertical-align: middle;
 }
@@ -117,20 +134,24 @@ body {
 .main__li > .main__input_check {
   margin: 0 10px;
 }
+
 .main__li > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .main__li > .main__input_text {
   width: 226px;
 }
+
 .main__btn.main__btn_delete .main__remove-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .main__btn.main__btn_delete .main__remove-img:hover {
   transform: rotateZ(0);
 }
