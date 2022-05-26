@@ -30,7 +30,7 @@ body {
   font-family: "SebastianLightPro", fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
