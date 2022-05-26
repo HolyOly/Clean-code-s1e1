@@ -53,10 +53,10 @@ body {
 .main__li, .main__title {
   list-style: none;
 }
-input,button{
+input, .main__btn {
   outline: none;
 }
-button {
+.main__btn {
   background: none;
   border: 0px;
   color: #888;
@@ -65,7 +65,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.main__btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -129,12 +129,12 @@ input#new-item {
 .main__li > input[type="text"] {
   width: 226px;
 }
-button.main__delete-button .main__remove-img {
+.main__btn.main__delete-button .main__remove-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.main__delete-button .main__remove-img:hover {
+.main__btn.main__delete-button .main__remove-img:hover {
   transform: rotateZ(0);
 }
 
