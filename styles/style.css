@@ -129,17 +129,17 @@ body {
 .main__li > .main__input_text { /* .main__input-task */
   width: 226px;
 }
-.main__btn.main__delete-button .main__remove-img {
+.main__btn.main__btn_delete .main__remove-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.main__btn.main__delete-button .main__remove-img:hover {
+.main__btn.main__btn_delete .main__remove-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.main__ul#main__completed-item label {
+.main__ul#completed-item label {
   text-decoration: line-through;
   color: #888;
 }
