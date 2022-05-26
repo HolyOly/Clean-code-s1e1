@@ -27,8 +27,11 @@ body {
   font-family: "SebastianLightPro", fantasy, cursive;
 }
 @media (max-width:768px) {
-.header { text-align: center;
-}
+
+  .header { 
+    text-align: center;
+  }
+  
 }
 .main {
   display: block;
@@ -106,7 +109,6 @@ input#new-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -124,7 +126,7 @@ input#new-item {
   font-size: 18px;
   width: 226px;
 }
-.main__li >    input[type="text"] {
+.main__li > input[type="text"] {
   width: 226px
 }
 button.main__delete-button .main__remove-img {
