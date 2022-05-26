@@ -41,7 +41,7 @@ body {
 .main__input-task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .main__item-row {
   display: flex;
@@ -127,7 +127,7 @@ input#new-item {
   width: 226px;
 }
 .main__li > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 button.main__delete-button .main__remove-img {
   height: 2em;
@@ -146,12 +146,12 @@ button.main__delete-button .main__remove-img:hover {
 
 /* Edit Task */
 .main__ul .main__li input[type=text] {
-  display: none
+  display: none;
 }
 
 .main__ul .main__li.main__edit-mode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .main__ul .main__li.main__edit-mode label {
