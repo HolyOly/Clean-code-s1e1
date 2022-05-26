@@ -43,9 +43,9 @@ var createNewTaskElement = function(taskString) {
   editInput.className = "main__input-task";
 
   editButton.innerText = "Edit"; //innerText encodes special characters, HTML does not.
-  editButton.className = "main__button-edit";
+  editButton.className = "main__btn main__button-edit";
 
-  deleteButton.className = "main__delete-button";
+  deleteButton.className = "main__btn main__delete-button";
   deleteButtonImg.src = './assets/svg/remove.svg';
   deleteButtonImg.className = "main__remove-img";
   deleteButton.appendChild(deleteButtonImg);
@@ -65,7 +65,7 @@ var addTask = function() {
   console.log("Add Task...");
   //Create a new list item with the text from the #new-item:
   if (!taskInput.value) return;
-  var listItem=createNewTaskElement(taskInput.value);
+  var listItem = createNewTaskElement(taskInput.value);
 
   //Append listItem to incompleteTaskHolder
   incompleteTaskHolder.appendChild(listItem);
@@ -111,7 +111,6 @@ var deleteTask = function() {
   var ul = listItem.parentNode;
   //Remove the parent list item from the ul.
   ul.removeChild(listItem);
-
 }
 
 
@@ -143,18 +142,18 @@ var ajaxRequest = function() {
 //The glue to hold it all together.
 
 //Set the click handler to the addTask function.
-addButton.onclick=addTask;
+addButton.onclick = addTask;
 addButton.addEventListener("click", addTask);
 addButton.addEventListener("click", ajaxRequest);
 
 var bindTaskEvents = function(taskListItem, checkBoxEventHandler) {
   console.log("bind list item events");
   //select ListItems children
-  var checkBox=taskListItem.querySelector("input[type=checkbox]");
-  var editButton=taskListItem.querySelector("button.main__button-edit");
-  var deleteButton=taskListItem.querySelector("button.main__delete-button");
+  var checkBox = taskListItem.querySelector("input[type=checkbox]");
+  var editButton = taskListItem.querySelector(".main__button-edit");
+  var deleteButton = taskListItem.querySelector(".main__delete-button");
 
-
+//button.main__button-edit
   //Bind editTask to edit button.
   editButton.onclick = editTask;
   //Bind deleteTask to delete button.
