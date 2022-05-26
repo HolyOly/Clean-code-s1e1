@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'SebastianLightPro';
-  src: url('./fonts/SebastianLightPro.eot');
-  src: url('./fonts/SebastianLightPro.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/SebastianLightPro.ttf') format('truetype'),
-    url('./fonts/SebastianLightPro.woff') format('woff'),
-    url('./fonts/SebastianLightPro.woff2') format('woff2');
+  font-family: "SebastianLightPro";
+  src: url("./fonts/SebastianLightPro.eot");
+  src: url("./fonts/SebastianLightPro.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/SebastianLightPro.ttf") format("truetype"),
+    url("./fonts/SebastianLightPro.woff") format("woff"),
+    url("./fonts/SebastianLightPro.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -12,7 +12,7 @@
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: 'Lato', "Open Sans", sans-serif;
+  font-family: "Lato", "Open Sans", sans-serif;
 }
 .header {
   width: 500px;
@@ -24,7 +24,7 @@ body {
   width: 100%;
 }
 .header .header__info {
-  font-family: 'SebastianLightPro', fantasy, cursive;
+  font-family: "SebastianLightPro", fantasy, cursive;
 }
 @media (max-width:768px) {
 .header { text-align: center;
