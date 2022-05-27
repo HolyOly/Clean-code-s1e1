@@ -141,9 +141,9 @@ body {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
 }
 
+.main__li > label,
 .main__li > .main__input_text {
   width: 226px;
 }
@@ -163,15 +163,12 @@ body {
   color: #888;
 }
 
-.main__ul .main__li .main__input_text {
+.main__ul .main__li .main__input_text,
+.main__ul .main__li.main__edit-mode label {
   display: none;
 }
 
 .main__ul .main__li.main__edit-mode .main__input_text {
   display: inline-block;
   width: 224px;
-}
-
-.main__ul .main__li.main__edit-mode label {
-  display: none;
 }
