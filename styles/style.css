@@ -59,11 +59,13 @@ body {
   padding: 0px;
 }
 
-.main__li, .main__title {
+.main__li,
+.main__title {
   list-style: none;
 }
 
-.main__input, .main__btn {
+.main__btn,
+.main__input {
   outline: none;
 }
 
