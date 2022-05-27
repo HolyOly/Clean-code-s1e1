@@ -73,7 +73,7 @@ body {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Open Sans", sans-serif;
   cursor: pointer;
 }
 
@@ -101,7 +101,7 @@ body {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", "Open Sans", sans-serif;
   color: #888;
 }
 
