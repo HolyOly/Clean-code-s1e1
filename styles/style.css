@@ -137,13 +137,13 @@
   margin: 0 10px;
 }
 
-.main__li > label {
+.main__li > .main__input-task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
 }
 
-.main__li > label,
+.main__li > .main__input-task,
 .main__li > .main__input_text {
   width: 226px;
 }
@@ -158,13 +158,13 @@
   transform: rotateZ(0);
 }
 
-.main__ul#completed-item label {
+.main__ul#completed-item .main__input-task {
   text-decoration: line-through;
   color: #888;
 }
 
 .main__ul .main__li .main__input_text,
-.main__ul .main__li.main__edit-mode label {
+.main__ul .main__li.main__edit-mode .main__input-task {
   display: none;
 }
 
