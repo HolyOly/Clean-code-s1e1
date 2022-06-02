@@ -6,52 +6,52 @@
     <link rel="stylesheet" href="./styles/style.css" media="screen" charset="utf-8">
   </head>
   <body class="page">
-  <header class="header">
-    <img class="header__img" src="./assets/img/eisenhower-matrix.jpg" alt="Eisenhower matrix">
-    <a class="header__info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </header>
-  <main class="main">
-    <div class="main__add-item" id="add-item">
-      <label class="main__label-add" for="new-item">Add Item</label>
-      <div class="main__item-row">
-        <input class="main__input main__input-general main__input_text" id="new-item" type="text">
-        <button class="main__btn main__btn-add">Add</button>
+    <header class="header">
+      <img class="header__img" src="./assets/img/eisenhower-matrix.jpg" alt="Eisenhower matrix">
+      <a class="header__info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    </header>
+    <main class="main">
+      <div class="main__add-item" id="add-item">
+        <label class="main__label-add" for="new-item">Add Item</label>
+        <div class="main__item-row">
+          <input class="main__input main__input-general main__input_text" id="new-item" type="text">
+          <button class="main__btn main__btn-add">Add</button>
+        </div>
       </div>
-    </div>
-    <h1 class="main__title">Todo</h1>
-    <ul class="main__ul main__incomplete-item" id="incomplete-item">
-      <li class="main__li main__todo-mode">
-        <input class="main__input main__input_check" type="checkbox">
-        <label class="main__input-general main__input-task">Pay Bills</label>
-        <input class="main__input main__input-general main__input_text" type="text">
-        <button class="main__btn main__btn_edit">Edit</button>
-        <button class="main__btn main__btn_delete">
-          <img class="main__remove-img" src="./assets/svg/remove.svg" alt="">
-        </button>
-      </li>
-      <li class="main__li main__edit-mode">
-        <input class="main__input main__input_check" type="checkbox">
-        <label class="main__input-general main__input-task">Go Shopping</label>
-        <input class="main__input main__input-general main__input_text" type="text" value="Go Shopping">
-        <button class="main__btn main__btn_edit">Save</button>
-        <button class="main__btn main__btn_delete">
-          <img class="main__remove-img" src="./assets/svg/remove.svg" alt="">
-        </button>
-      </li>
-    </ul>
-    <h2 class="main__title">Completed</h2>
-    <ul class="main__ul main__completed-item" id="completed-item">
-      <li class="main__li main__completed-mode">
-        <input class="main__input main__input_check" type="checkbox" checked>
-        <label class="main__input-general main__input-task">See the Doctor</label>
-        <input class="main__input main__input-general main__input_text" type="text">
-        <button class="main__btn main__btn_edit">Edit</button>
-        <button class="main__btn main__btn_delete">
-          <img class="main__remove-img" src="./assets/svg/remove.svg" alt="">
-        </button>
-      </li>
-    </ul>
-  </main>
+      <h1 class="main__title">Todo</h1>
+      <ul class="main__ul main__incomplete-item" id="incomplete-item">
+        <li class="main__li main__todo-mode">
+          <input class="main__input main__input_check" type="checkbox">
+          <label class="main__input-general main__input-task">Pay Bills</label>
+          <input class="main__input main__input-general main__input_text" type="text">
+          <button class="main__btn main__btn_edit">Edit</button>
+          <button class="main__btn main__btn_delete">
+            <img class="main__remove-img" src="./assets/svg/remove.svg" alt="">
+          </button>
+        </li>
+        <li class="main__li main__edit-mode">
+          <input class="main__input main__input_check" type="checkbox">
+          <label class="main__input-general main__input-task">Go Shopping</label>
+          <input class="main__input main__input-general main__input_text" type="text" value="Go Shopping">
+          <button class="main__btn main__btn_edit">Save</button>
+          <button class="main__btn main__btn_delete">
+            <img class="main__remove-img" src="./assets/svg/remove.svg" alt="">
+          </button>
+        </li>
+      </ul>
+      <h2 class="main__title">Completed</h2>
+      <ul class="main__ul main__completed-item" id="completed-item">
+        <li class="main__li main__completed-mode">
+          <input class="main__input main__input_check" type="checkbox" checked>
+          <label class="main__input-general main__input-task">See the Doctor</label>
+          <input class="main__input main__input-general main__input_text" type="text">
+          <button class="main__btn main__btn_edit">Edit</button>
+          <button class="main__btn main__btn_delete">
+            <img class="main__remove-img" src="./assets/svg/remove.svg" alt="">
+          </button>
+        </li>
+      </ul>
+    </main>
   <script src="./js/todo-list.js"></script>
   </body>
 </html>
